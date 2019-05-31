@@ -12,3 +12,17 @@ D:\ASP Net Core VueJs\Sistema\Sistema.Datos\bin\Debug\netcoreapp2.1\Sistema.Enti
 D:\ASP Net Core VueJs\Sistema\Sistema.Datos\obj\Debug\netcoreapp2.1\Sistema.Datos.csproj.CopyComplete
 D:\ASP Net Core VueJs\Sistema\Sistema.Datos\obj\Debug\netcoreapp2.1\Sistema.Datos.dll
 D:\ASP Net Core VueJs\Sistema\Sistema.Datos\obj\Debug\netcoreapp2.1\Sistema.Datos.pdb
+C:\Users\Sebastian Rodriguez\Documents\ASP .NET EF CORE VUEJS\ASP-Net-Core-VueJs\Sistema\Sistema.Datos\bin\Debug\netcoreapp2.1\Sistema.Datos.deps.json
+C:\Users\Sebastian Rodriguez\Documents\ASP .NET EF CORE VUEJS\ASP-Net-Core-VueJs\Sistema\Sistema.Datos\bin\Debug\netcoreapp2.1\Sistema.Datos.runtimeconfig.json
+C:\Users\Sebastian Rodriguez\Documents\ASP .NET EF CORE VUEJS\ASP-Net-Core-VueJs\Sistema\Sistema.Datos\bin\Debug\netcoreapp2.1\Sistema.Datos.runtimeconfig.dev.json
+C:\Users\Sebastian Rodriguez\Documents\ASP .NET EF CORE VUEJS\ASP-Net-Core-VueJs\Sistema\Sistema.Datos\bin\Debug\netcoreapp2.1\Sistema.Datos.dll
+C:\Users\Sebastian Rodriguez\Documents\ASP .NET EF CORE VUEJS\ASP-Net-Core-VueJs\Sistema\Sistema.Datos\bin\Debug\netcoreapp2.1\Sistema.Datos.pdb
+C:\Users\Sebastian Rodriguez\Documents\ASP .NET EF CORE VUEJS\ASP-Net-Core-VueJs\Sistema\Sistema.Datos\bin\Debug\netcoreapp2.1\Sistema.Entidades.dll
+C:\Users\Sebastian Rodriguez\Documents\ASP .NET EF CORE VUEJS\ASP-Net-Core-VueJs\Sistema\Sistema.Datos\bin\Debug\netcoreapp2.1\Sistema.Entidades.pdb
+C:\Users\Sebastian Rodriguez\Documents\ASP .NET EF CORE VUEJS\ASP-Net-Core-VueJs\Sistema\Sistema.Datos\obj\Debug\netcoreapp2.1\Sistema.Datos.csprojAssemblyReference.cache
+C:\Users\Sebastian Rodriguez\Documents\ASP .NET EF CORE VUEJS\ASP-Net-Core-VueJs\Sistema\Sistema.Datos\obj\Debug\netcoreapp2.1\Sistema.Datos.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian Rodriguez\Documents\ASP .NET EF CORE VUEJS\ASP-Net-Core-VueJs\Sistema\Sistema.Datos\obj\Debug\netcoreapp2.1\Sistema.Datos.AssemblyInfoInputs.cache
+C:\Users\Sebastian Rodriguez\Documents\ASP .NET EF CORE VUEJS\ASP-Net-Core-VueJs\Sistema\Sistema.Datos\obj\Debug\netcoreapp2.1\Sistema.Datos.AssemblyInfo.cs
+C:\Users\Sebastian Rodriguez\Documents\ASP .NET EF CORE VUEJS\ASP-Net-Core-VueJs\Sistema\Sistema.Datos\obj\Debug\netcoreapp2.1\Sistema.Datos.csproj.CopyComplete
+C:\Users\Sebastian Rodriguez\Documents\ASP .NET EF CORE VUEJS\ASP-Net-Core-VueJs\Sistema\Sistema.Datos\obj\Debug\netcoreapp2.1\Sistema.Datos.dll
+C:\Users\Sebastian Rodriguez\Documents\ASP .NET EF CORE VUEJS\ASP-Net-Core-VueJs\Sistema\Sistema.Datos\obj\Debug\netcoreapp2.1\Sistema.Datos.pdb

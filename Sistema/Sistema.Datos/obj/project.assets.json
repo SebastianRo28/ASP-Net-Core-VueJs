@@ -3630,23 +3630,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\sebas\\.nuget\\packages\\": {},
+    "C:\\Users\\Sebastian Rodriguez\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ASP Net Core VueJs\\Sistema\\Sistema.Datos\\Sistema.Datos.csproj",
+      "projectUniqueName": "C:\\Users\\Sebastian Rodriguez\\Documents\\ASP .NET EF CORE VUEJS\\ASP-Net-Core-VueJs\\Sistema\\Sistema.Datos\\Sistema.Datos.csproj",
       "projectName": "Sistema.Datos",
-      "projectPath": "D:\\ASP Net Core VueJs\\Sistema\\Sistema.Datos\\Sistema.Datos.csproj",
-      "packagesPath": "C:\\Users\\sebas\\.nuget\\packages\\",
-      "outputPath": "D:\\ASP Net Core VueJs\\Sistema\\Sistema.Datos\\obj\\",
+      "projectPath": "C:\\Users\\Sebastian Rodriguez\\Documents\\ASP .NET EF CORE VUEJS\\ASP-Net-Core-VueJs\\Sistema\\Sistema.Datos\\Sistema.Datos.csproj",
+      "packagesPath": "C:\\Users\\Sebastian Rodriguez\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Sebastian Rodriguez\\Documents\\ASP .NET EF CORE VUEJS\\ASP-Net-Core-VueJs\\Sistema\\Sistema.Datos\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\sebas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Sebastian Rodriguez\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3659,8 +3659,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "D:\\ASP Net Core VueJs\\Sistema\\Sistema.Entidades\\Sistema.Entidades.csproj": {
-              "projectPath": "D:\\ASP Net Core VueJs\\Sistema\\Sistema.Entidades\\Sistema.Entidades.csproj"
+            "C:\\Users\\Sebastian Rodriguez\\Documents\\ASP .NET EF CORE VUEJS\\ASP-Net-Core-VueJs\\Sistema\\Sistema.Entidades\\Sistema.Entidades.csproj": {
+              "projectPath": "C:\\Users\\Sebastian Rodriguez\\Documents\\ASP .NET EF CORE VUEJS\\ASP-Net-Core-VueJs\\Sistema\\Sistema.Entidades\\Sistema.Entidades.csproj"
             }
           }
         }
