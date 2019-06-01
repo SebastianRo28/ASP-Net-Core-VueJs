@@ -1,34 +1,34 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sebastian Rodriguez\\Documents\\ASP .NET EF CORE VUEJS\\ASP-Net-Core-VueJs\\Sistema\\Sistema.Entidades\\Sistema.Entidades.csproj": {}
+    "D:\\ASP Net Core VueJs\\Sistema\\Sistema.Entidades\\Sistema.Entidades.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sebastian Rodriguez\\Documents\\ASP .NET EF CORE VUEJS\\ASP-Net-Core-VueJs\\Sistema\\Sistema.Entidades\\Sistema.Entidades.csproj": {
+    "D:\\ASP Net Core VueJs\\Sistema\\Sistema.Entidades\\Sistema.Entidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sebastian Rodriguez\\Documents\\ASP .NET EF CORE VUEJS\\ASP-Net-Core-VueJs\\Sistema\\Sistema.Entidades\\Sistema.Entidades.csproj",
+        "projectUniqueName": "D:\\ASP Net Core VueJs\\Sistema\\Sistema.Entidades\\Sistema.Entidades.csproj",
         "projectName": "Sistema.Entidades",
-        "projectPath": "C:\\Users\\Sebastian Rodriguez\\Documents\\ASP .NET EF CORE VUEJS\\ASP-Net-Core-VueJs\\Sistema\\Sistema.Entidades\\Sistema.Entidades.csproj",
-        "packagesPath": "C:\\Users\\Sebastian Rodriguez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sebastian Rodriguez\\Documents\\ASP .NET EF CORE VUEJS\\ASP-Net-Core-VueJs\\Sistema\\Sistema.Entidades\\obj\\",
+        "projectPath": "D:\\ASP Net Core VueJs\\Sistema\\Sistema.Entidades\\Sistema.Entidades.csproj",
+        "packagesPath": "C:\\Users\\sebas\\.nuget\\packages\\",
+        "outputPath": "D:\\ASP Net Core VueJs\\Sistema\\Sistema.Entidades\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Sebastian Rodriguez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sebas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp2.1"
+          "netcoreapp2.2"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp2.1": {
+          "netcoreapp2.2": {
             "projectReferences": {}
           }
         },
@@ -39,12 +39,12 @@
         }
       },
       "frameworks": {
-        "netcoreapp2.1": {
+        "netcoreapp2.2": {
           "dependencies": {
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.1.0, )",
+              "version": "[2.2.0, )",
               "autoReferenced": true
             }
           },

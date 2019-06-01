@@ -1,0 +1,20 @@
+D:\ASP PROV\Sistema\Sistema.Datos\bin\Debug\netcoreapp2.2\Sistema.Datos.deps.json
+D:\ASP PROV\Sistema\Sistema.Datos\bin\Debug\netcoreapp2.2\Sistema.Datos.dll
+D:\ASP PROV\Sistema\Sistema.Datos\obj\Debug\netcoreapp2.2\Sistema.Datos.csproj.CoreCompileInputs.cache
+D:\ASP PROV\Sistema\Sistema.Datos\obj\Debug\netcoreapp2.2\Sistema.Datos.AssemblyInfoInputs.cache
+D:\ASP PROV\Sistema\Sistema.Datos\obj\Debug\netcoreapp2.2\Sistema.Datos.AssemblyInfo.cs
+D:\ASP PROV\Sistema\Sistema.Datos\obj\Debug\netcoreapp2.2\Sistema.Datos.csprojAssemblyReference.cache
+D:\ASP Net Core VueJs\Sistema\Sistema.Datos\bin\Debug\netcoreapp2.2\Sistema.Datos.deps.json
+D:\ASP Net Core VueJs\Sistema\Sistema.Datos\bin\Debug\netcoreapp2.2\Sistema.Datos.runtimeconfig.json
+D:\ASP Net Core VueJs\Sistema\Sistema.Datos\bin\Debug\netcoreapp2.2\Sistema.Datos.runtimeconfig.dev.json
+D:\ASP Net Core VueJs\Sistema\Sistema.Datos\bin\Debug\netcoreapp2.2\Sistema.Datos.dll
+D:\ASP Net Core VueJs\Sistema\Sistema.Datos\bin\Debug\netcoreapp2.2\Sistema.Datos.pdb
+D:\ASP Net Core VueJs\Sistema\Sistema.Datos\bin\Debug\netcoreapp2.2\Sistema.Entidades.dll
+D:\ASP Net Core VueJs\Sistema\Sistema.Datos\bin\Debug\netcoreapp2.2\Sistema.Entidades.pdb
+D:\ASP Net Core VueJs\Sistema\Sistema.Datos\obj\Debug\netcoreapp2.2\Sistema.Datos.csprojAssemblyReference.cache
+D:\ASP Net Core VueJs\Sistema\Sistema.Datos\obj\Debug\netcoreapp2.2\Sistema.Datos.csproj.CoreCompileInputs.cache
+D:\ASP Net Core VueJs\Sistema\Sistema.Datos\obj\Debug\netcoreapp2.2\Sistema.Datos.AssemblyInfoInputs.cache
+D:\ASP Net Core VueJs\Sistema\Sistema.Datos\obj\Debug\netcoreapp2.2\Sistema.Datos.AssemblyInfo.cs
+D:\ASP Net Core VueJs\Sistema\Sistema.Datos\obj\Debug\netcoreapp2.2\Sistema.Datos.csproj.CopyComplete
+D:\ASP Net Core VueJs\Sistema\Sistema.Datos\obj\Debug\netcoreapp2.2\Sistema.Datos.dll
+D:\ASP Net Core VueJs\Sistema\Sistema.Datos\obj\Debug\netcoreapp2.2\Sistema.Datos.pdb

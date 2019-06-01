@@ -24,7 +24,7 @@ namespace Sistema.Web.Controllers
 
         // GET: api/Categorias/Listar
         [HttpGet("[action]")]
-        public async Task <IEnumerable<CategoriaViewModel>> Listar()
+        public async Task<IEnumerable<CategoriaViewModel>> Listar()
         {
             var categoria = await _context.Categorias.ToListAsync();
             return categoria.Select(c => new CategoriaViewModel
@@ -73,7 +73,7 @@ namespace Sistema.Web.Controllers
 
             var categoria = await _context.Categorias.FirstOrDefaultAsync(c => c.idcategoria == model.idcategoria);
 
-            if(categoria == null)
+            if (categoria == null)
             {
                 return NotFound();
             }
@@ -114,11 +114,11 @@ namespace Sistema.Web.Controllers
             {
                 await _context.SaveChangesAsync();
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 return BadRequest();
             }
-            
+
 
             return Ok();
         }
@@ -143,11 +143,11 @@ namespace Sistema.Web.Controllers
             {
                 await _context.SaveChangesAsync();
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 return BadRequest();
             }
-            
+
 
             return Ok(categoria);
         }
