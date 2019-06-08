@@ -6,3 +6,4 @@ D:\ASP Net Core VueJs\Sistema\Sistema.Entidades\obj\Debug\netcoreapp2.2\Sistema.
 D:\ASP Net Core VueJs\Sistema\Sistema.Entidades\obj\Debug\netcoreapp2.2\Sistema.Entidades.AssemblyInfo.cs
 D:\ASP Net Core VueJs\Sistema\Sistema.Entidades\obj\Debug\netcoreapp2.2\Sistema.Entidades.dll
 D:\ASP Net Core VueJs\Sistema\Sistema.Entidades\obj\Debug\netcoreapp2.2\Sistema.Entidades.pdb
+D:\ASP Net Core VueJs\Sistema\Sistema.Entidades\obj\Debug\netcoreapp2.2\Sistema.Entidades.csprojAssemblyReference.cache

@@ -2,7 +2,7 @@
     <v-layout align-start>
         <v-flex>
             <v-toolbar flat color="white">
-                <v-toolbar-title>Categorias</v-toolbar-title>
+                <v-toolbar-title>Articulos</v-toolbar-title>
                 <v-divider
                 class="mx-2"
                 inset
@@ -23,8 +23,21 @@
                     <v-card-text>
                       <v-container grid-list-md>
                         <v-layout wrap>
+                          <v-flex xs6 sm6 md6>
+                            <v-text-field v-model="codigo" label="Codigo"></v-text-field>
+                          </v-flex>
+                          <v-flex xs6 sm6 md6>
+                            <v-select v-model="idcategoria" :items="categorias" label="Categoria">
+                            </v-select>
+                          </v-flex>
                           <v-flex xs12 sm12 md12>
                             <v-text-field v-model="nombre" label="Nombre"></v-text-field>
+                          </v-flex>
+                          <v-flex xs6 sm6 md6>
+                            <v-text-field type="number" v-model="stock" label="Stock"></v-text-field>
+                          </v-flex>
+                          <v-flex xs6 sm6 md6>
+                            <v-text-field type="number" v-model="precio_venta" label="Precio Venta"></v-text-field>
                           </v-flex>
                           <v-flex xs12 sm12 md12>
                             <v-text-field v-model="descripcion" label="Descripcion"></v-text-field>
@@ -71,7 +84,7 @@
             </v-toolbar>
             <v-data-table
                 :headers="headers"
-                :items="categorias"
+                :items="articulos"
                 :search="search"
                 class="elevation-1"
             >
@@ -101,7 +114,11 @@
                       </v-icon>
                     </template>
                 </td>
+                <td>{{ props.item.codigo }}</td>
                 <td>{{ props.item.nombre }}</td>
+                <td>{{ props.item.categoria }}</td>
+                <td>{{ props.item.stock }}</td>
+                <td>{{ props.item.precio_venta }}</td>
                 <td class="text-xs-left">{{ props.item.descripcion }}</td>
                 <td class="text-xs-left">
                     <div v-if="props.item.condicion">
@@ -124,17 +141,26 @@
 import axios from 'axios'
 export default {
   data: () => ({
-    categorias:[],
+    articulos:[],
     dialog: false,
     headers: [
       { text: 'Acciones', value: 'acciones', sortable: false },
+      { text: 'Codigo', value: 'codigo', sortable: false },
       { text: 'Nombre', align: 'left', value: 'nombre' },
+      { text: 'Categoria', value: 'categoria' },
+      { text: 'Stock', value: 'stock', sortable: false  },
+      { text: 'Precio Venta', value: 'precio_venta', sortable: false  },
       { text: 'Descripcion', align: 'left', value: 'descripcion', sortable: false  },
       { text: 'Estado', align: 'left', value: 'condicion', sortable: false  }
     ],
     search: '',
     editedIndex: -1,
     id: '',
+    idcategoria: '',
+    categorias: [],
+    codigo: '',
+    precio_venta: 0,
+    stock: 0,
     nombre: '',
     descripcion: '',
     valida: 0,
@@ -147,7 +173,7 @@ export default {
 
   computed: {
     formTitle () {
-      return this.editedIndex === -1 ? 'Nueva Categoria' : 'Editar Categoria'
+      return this.editedIndex === -1 ? 'Nueva Articulo' : 'Editar Articulo'
     }
   },
 
@@ -159,14 +185,29 @@ export default {
 
   created () {
     this.listar();
+    this.Select();
   },
 
   methods: {
     listar(){
         let me = this;
-        axios.get('api/Categorias/Listar').then(function(response){
+        axios.get('api/Articulos/Listar').then(function(response){
             //console.log(response);
-            me.categorias = response.data;
+            me.articulos = response.data;
+        }).catch(function(error){
+            console.log(error);
+        });
+    },
+
+    Select(){
+        let me = this;
+        var categoriasArray = [];
+        axios.get('api/Categorias/Select').then(function(response){
+            //console.log(response);
+            categoriasArray = response.data;
+            categoriasArray.map(function(x){
+              me.categorias.push({text: x.nombre, value: x.idcategoria});
+            });
         }).catch(function(error){
             console.log(error);
         });
